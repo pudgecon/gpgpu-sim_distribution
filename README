@@ -182,6 +182,9 @@ python-matplotlib"
 
 CUDA SDK dependencies:
 "sudo apt-get install libxi-dev libxmu-dev libglut3-dev"
+or
+"sudo apt-get install libxi-dev libxmu-dev freeglut3-dev" # on Ubuntu 14.04.
+
 
 Finally, ensure CUDA_INSTALL_PATH is set to the location where you installed
 the CUDA Toolkit (e.g., /usr/local/cuda) and that $CUDA_INSTALL_PATH/bin is in
